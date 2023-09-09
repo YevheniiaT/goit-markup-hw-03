@@ -43,7 +43,30 @@ address {
 }
 
 /* Header */
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+}
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-grow: 1;
+}
+.header-menu {
+    display: flex;
+    gap: 40px;
+    flex-grow: 1;
+    justify-content: center;
+}
 .logo {
+    display: flex;
     color: var(--color-logo-button);
     font-family: 'Raleway',
         sans-serif;
@@ -52,6 +75,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    align-items: center;
 }
 .logo-studio {
    color: var(--color-brand);
@@ -61,6 +85,8 @@ address {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding: 24px 0;
+    display: inline-block;
 }
 .nav-link:focus {
 color: #404bbf;
@@ -71,6 +97,7 @@ color: #404bbf;
 .nav-link:active {
     color: #404bbf;
 }
+
 .address-info {
     color: var(--color-primery);
     font-style: normal;
