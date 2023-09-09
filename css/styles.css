@@ -1,3 +1,12 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
 :root {
     --color-brand: #2E2F42;
     --color-primery: #434455;
@@ -84,13 +93,15 @@ address:focus {
 /* hero section */
 .hero-section {
     background-color: var(--color-brand);
-    text-align: center
-}
+    text-align: center;
+    padding: 188px 0;
+    }
 .hero-section-title {
 color: var(--color-primery-light);
 font-size: 56px;
 line-height: 1.07;
 letter-spacing: 0.02em;
+margin-bottom: 48px;
 }
 .button {
     background-color: var(--color-logo-button);
@@ -109,6 +120,10 @@ letter-spacing: 0.02em;
 }
 /* Strategy section */
 
+.section-strategy {
+    padding: 120px 0;
+}
+
 .strategy-title {
     color: var(--color-brand);
     font-size: 20px;
@@ -124,10 +139,9 @@ letter-spacing: 0.02em;
 /* Our team section */
 .section-our-team {
 background-color: var(--bcg-color-light);  
+padding: 120px 0;
 }
-.our-team-bcg {
-    background-color: #FFFFFF;
-}
+
 .our-team-title {
     color: var(--color-brand);
    font-size: 36px;
@@ -138,6 +152,7 @@ text-align: center;
 }
 .our-team-name {
     color: var(--color-brand);
+    background-color: #FFFFFF;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -146,6 +161,7 @@ text-align: center;
 }
 .our-team-position {
     color: var(--color-primery);
+    background-color: #FFFFFF;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
