@@ -51,6 +51,9 @@ address {
 }
 
 /* Header */
+.header {
+    border-bottom: 1px solid  #E7E9FC;
+}
 .header-inner {
     display: flex;
     justify-content: space-between;
@@ -320,7 +323,7 @@ display: flex;
 /* Footer */
 .footer {
     background-color:var(--color-brand);
-    padding: 101.5px 0 100px;
+    padding: 100px 0 100px;
 }
 
 
@@ -339,7 +342,8 @@ display: flex;
         line-height: 1.17;
         letter-spacing: 0.03em;
         text-transform: uppercase;
-        margin-bottom: 17.5px;
+        margin-bottom: 16px;
+        display: inline-block
 }
 .footer-logo-studio { 
     color: var(--bcg-color-light);
