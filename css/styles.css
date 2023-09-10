@@ -109,6 +109,10 @@ color: #404bbf;
 .nav-link:active {
     color: #404bbf;
 }
+.header-address-list {
+    display: flex;
+    gap: 40px;
+}
 
 .address-info {
     color: var(--color-primery);
