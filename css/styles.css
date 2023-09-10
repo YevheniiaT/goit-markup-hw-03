@@ -190,7 +190,6 @@ margin-bottom: 48px;
         clip-path: inset(100%);
         clip: rect(0 0 0 0);
         overflow: hidden;
-        margin-bottom: 8px
 }
 .strategy-list{
     display: flex;
