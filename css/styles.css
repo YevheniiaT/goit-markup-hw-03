@@ -322,10 +322,13 @@ display: flex;
     background-color:var(--color-brand);
     padding: 101.5px 0 100px;
 }
+
+
 .footer-text {
     color: var(--bcg-color-light);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    width: 264px;
 }
 .logo-footer {
     color: var(--color-logo-button);
