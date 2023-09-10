@@ -229,14 +229,7 @@ margin-bottom: 48px;
 background-color: var(--bcg-color-light);  
 padding: 120px 0;
 }
-/* .our-team {
-    display: inline-flex;
-    padding-bottom: 0px;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 32px;
-} */
+
 .our-team-details {
     display: flex;
     max-width: 232px;
@@ -312,18 +305,19 @@ flex-basis: calc((100% - 48px) / 3);
     align-self: stretch;
     padding-left: 16px;
     padding-top: 32px;
+    margin-bottom: 8p
 
 }
-.portfolio {
-display: flex;
+/* .portfolio {
+    display: flex;
     width: 360px;
     height: 420px;
     padding-bottom: 0px;
     flex-direction: column;
     align-items: flex-start;
     flex-shrink: 0;
-   
-}
+
+} */
 .our-portfolio-section-position {
     color: var(--color-primery);
     line-height: 1.5;
