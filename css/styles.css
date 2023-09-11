@@ -87,7 +87,7 @@ address {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     align-items: center;
-    margin-right: 76px;
+   /* margin-right: 76px; */
 }
 .logo-studio {
    color: var(--color-brand);
@@ -207,7 +207,7 @@ margin-bottom: 48px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     width: 264px;
-    margin-bottom: 8px
+   /* margin-bottom: 8px */
 }
 .strategy-text {
     color: var(--color-primery);
@@ -255,7 +255,7 @@ padding: 120px 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-   margin-bottom: 8px;
+
 }
 .our-team-position {
     color: var(--color-primery);
@@ -310,14 +310,13 @@ gap: 32px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     padding: 32px 16px 0;
-    margin-bottom: 8px
 }
 .our-portfolio-section-position {
     color: var(--color-primery);
     line-height: 1.5;
     letter-spacing: 0.02em;
     padding-left: 16px;
-    padding-bottom: 32px;
+   
     
 }
 /* Footer */
