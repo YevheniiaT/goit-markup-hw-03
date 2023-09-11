@@ -223,13 +223,22 @@ margin-bottom: 48px;
 .our-team-item {
     background-color: var(--color-primery-light);
     flex-basis: calc((100% - 72px) / 4);
-    border-radius: 0px 0px 4px 4px
+    border-radius: 0px 0px 4px 4px;
+    gap: 32px;
 }
 .section-our-team {
 background-color: var(--bcg-color-light);  
 padding: 120px 0;
 }
-
+.our-team-title {
+    color: var(--color-brand);
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 72px;
+}
 .our-team-details {
     display: flex;
     max-width: 232px;
@@ -237,17 +246,7 @@ padding: 120px 0;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    padding: 32px 0;
-}
-
-.our-team-title {
-    color: var(--color-brand);
-   font-size: 36px;
-   line-height: 1.11; 
-   letter-spacing: 0.02em;
-text-transform: capitalize;
-text-align: center;
-margin-bottom: 72px;
+   padding: 32px 0; 
 }
 .our-team-name {
     color: var(--color-brand);
@@ -256,7 +255,7 @@ margin-bottom: 72px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px
+   /* margin-bottom: 8px */
 }
 .our-team-position {
     color: var(--color-primery);
@@ -279,15 +278,7 @@ margin-bottom: 72px;
         margin-bottom: 72px;
 
 }
-.our-portfolio-section-title {
-    color: var(--color-brand);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    padding: 32px 16px;
-    margin-bottom: 8px
-}
+
 .our-portfolio-list {
     display: flex;
     flex-wrap: wrap;
@@ -297,6 +288,8 @@ column-gap: 24px;
 }
 .our-portfolio-section-item {
 flex-basis: calc((100% - 48px) / 3);
+gap: 32px;
+    flex-shrink: 0;
 }
 .portfolio-text {
     border: 1px solid #E7E9FC;
@@ -307,15 +300,25 @@ flex-basis: calc((100% - 48px) / 3);
     align-items: flex-start;
     align-self: stretch;
     padding-top: 32px;
-    margin-bottom: 8p;
-    padding: 32px 16px
-
+    /* margin-bottom: 8px; */
+    padding: 0 16px
 }
-
+.our-portfolio-section-title {
+    color: var(--color-brand);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    padding: 32px 16px 0;
+    margin-bottom: 8px
+}
 .our-portfolio-section-position {
     color: var(--color-primery);
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-left: 16px;
+    padding-bottom: 32px;
+    
 }
 /* Footer */
 .footer {
