@@ -255,7 +255,7 @@ padding: 120px 0;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-   /* margin-bottom: 8px */
+   margin-bottom: 8px;
 }
 .our-team-position {
     color: var(--color-primery);
@@ -301,7 +301,7 @@ gap: 32px;
     align-self: stretch;
     padding-top: 32px;
     /* margin-bottom: 8px; */
-    padding: 0 16px
+    padding: 32px 16px
 }
 .our-portfolio-section-title {
     color: var(--color-brand);
